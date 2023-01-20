@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+    font-family: "Anthony";
+    src: url('./fontes/Anthony.woff');
+}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Anthony', sans-serif;
 }
 
 header{
@@ -16,6 +24,7 @@ header{
 
 header h1{
     color: white;
+    font-family: 'Anthony', sans-serif;
 }
 
 img#topo{
