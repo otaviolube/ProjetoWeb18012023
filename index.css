@@ -2,11 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
 header{
     background-color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('imagens/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    color: white;
 }
 
 img#topo{
@@ -16,7 +25,7 @@ img#topo{
 }
 
 nav{
-    background-color: aquamarine;
+    background-color: darkblue;
 }
 
 ul{
@@ -35,6 +44,11 @@ li{
     justify-content: center;
 }
 
+li a{
+    text-decoration: none;
+    color: white;
+}
+
 li:hover{
     background-color: blue;
     border-bottom: 3px solid red;
@@ -42,10 +56,82 @@ li:hover{
 
 main{
     background-color: blueviolet;
-    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao{
+    height: 400px;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+section#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+section#servicos{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: url('imagens/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+section#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkkhaki;
+    color: white;
+}
+
+#texto{
+    margin: 0;
+    padding: 0;
+}
+
+section#texto h1{
+    color: white;
+}
+
+#principal{
+    width: 280px;
+    margin: 20px;
+    border-radius: 15%;
+}
+
+.branco{
+    color: white;
 }
 
 footer{
-    background-color: cadetblue;
-    height: 20px;
+    background-color: darkblue;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer p{
+    color: white;
+    text-align: center;
 }
