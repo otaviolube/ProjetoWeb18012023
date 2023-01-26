@@ -144,3 +144,24 @@ footer p{
     color: white;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section#home{
+        flex-direction: column;
+        padding: 20px;
+    }
+    p.branco{
+        text-align: center;
+    }
+
+    #texto h1{
+        text-align: center;
+    }
+}
